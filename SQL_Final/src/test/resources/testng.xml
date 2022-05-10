@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.Extenreporting.ExtentReports" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/bassv/intellij-workspace/SQL_Final">
+        <classes>
+            <class name="com.SQLConnect.SQLConnect">
+                <methods>
+                    <include name="getCountriesData"/>
+                    <include name="getDepartmentsData"/>
+                    <include name="getDependantsData"/>
+                    <include name="getEmployeesData"/>
+                    <include name="getJobsData"/>
+                    <include name="getLocationData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

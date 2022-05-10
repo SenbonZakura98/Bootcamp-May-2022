@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ebay_Framework_FInal(failed)">
+    <classes>
+      <class name="com.PageTests.SportingGoodsTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="sportingGoodsClicks"/>
+        </methods>
+      </class> <!-- com.PageTests.SportingGoodsTest -->
+      <class name="com.PageTests.CollecteblesTest">
+        <methods>
+          <include name="collectibles1"/>
+          <include name="breakDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.PageTests.CollecteblesTest -->
+      <class name="com.PageTests.RegisterUserTest">
+        <methods>
+          <include name="tearDOWn"/>
+          <include name="registerUserInput" invocation-numbers="0"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.PageTests.RegisterUserTest -->
+    </classes>
+  </test> <!-- Ebay_Framework_FInal(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

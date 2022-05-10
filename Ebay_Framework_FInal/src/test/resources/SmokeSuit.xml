@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/BrandOutletTest.java">
+        <classes>
+            <class name="com.PageTests.BrandOutletTest">
+                <methods>
+                    <include name="assertingPageTitle"/>
+                    <include name="callingAllHiddenButtons"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/BusinessTest.java">
+        <classes>
+            <class name="com.PageTests.BusinessTest">
+                <methods>
+                    <include name="dropTest"/>
+                    <include name="scrollFullpage"/>
+                    <include name="clickingAllhiddenItems"/>
+                    <include name="clickinAnItem"/>
+                    <include name="clickLogo"/>
+                    <include name="webLinks"/>
+                    <include name="allHiddenButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/CareerTest.java">
+        <classes>
+            <class name="com.PageTests.CareerTest">
+                <methods>
+                    <include name="titleTest"/>
+                    <include name="clickingOtherLinks"/>
+                    <include name="category"/>
+                    <include name="location"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/ClothingAccessoriesTests.java">
+        <classes>
+            <class name="com.PageTests.ClothingAccessoriesTests">
+                <methods>
+                    <include name="checkTitle"/>
+                    <include name="testHiddenButton"/>
+                    <include name="categoryTest2"/>
+                    <include name="remainingCategories"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/CollecteblesTest.java">
+        <classes>
+            <class name="com.PageTests.CollecteblesTest">
+                <methods>
+                    <include name="collectibles1"/>
+                    <include name="collectibles2"/>
+                    <include name="collectibles3"/>
+                    <include name="collectibles5"/>
+                    <include name="hiddenItems"/>
+                    <include name="itemsOfPage"/>
+                    <include name="pageBottomTextPrint"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/DailyDealsTest.java">
+        <classes>
+            <class name="com.PageTests.DailyDealsTest">
+                <methods>
+                    <include name="fetchTitle"/>
+                    <include name="checkingAllDropDowns"/>
+                    <include name="screenShot"/>
+                    <include name="featuredBody"/>
+                    <include name="itemsClick"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/ElectronicsPageTest.java">
+        <classes>
+            <class name="com.PageTests.ElectronicsPageTest">
+                <methods>
+                    <include name="titleTest"/>
+                    <include name="titleTEst2"/>
+                    <include name="callingDropDown1"/>
+                    <include name="callingDropDown2"/>
+                    <include name="callingDropDown3"/>
+                    <include name="callingDropDown4"/>
+                    <include name="callingDropDown5"/>
+                    <include name="callingDropDown6"/>
+                    <include name="callingDropDown7"/>
+                    <include name="callingDropDown8"/>
+                    <include name="callingDropDown9"/>
+                    <include name="callingDropDown10"/>
+                    <include name="clickItem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/HomePageSearchTest.java">
+        <classes>
+            <class name="com.PageTests.HomePageSearchTest">
+                <methods>
+                    <include name="titleTest"/>
+                    <include name="itemSearch"/>
+                    <include name="itemSearchResults"/>
+                    <include name="searchAgain"/>
+                    <include name="searchResultsAgain"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/HomePageTest.java">
+        <classes>
+            <class name="com.PageTests.HomePageTest">
+                <methods>
+                    <include name="searchDrop"/>
+                    <include name="categorySelect"/>
+                    <include name="moneyBackClick"/>
+                    <include name="hoverTest"/>
+                    <include name="footerPicture"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/JeweleryTest.java">
+        <classes>
+            <class name="com.PageTests.JeweleryTest">
+                <methods>
+                    <include name="jewelry1"/>
+                    <include name="jewelry2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/LogInPageTest.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/MotorsTest.java">
+        <classes>
+            <class name="com.PageTests.MotorsTest">
+                <methods>
+                    <include name="pageTitle"/>
+                    <include name="hiddenItemCLicks"/>
+                    <include name="printText"/>
+                    <include name="hiddenButtons"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/RefurbishedPageTest.java">
+        <classes>
+            <class name="com.PageTests.RefurbishedPageTest">
+                <methods>
+                    <include name="pageInfo"/>
+                    <include name="bottomTxt"/>
+                    <include name="callingAllHiddenButtons"/>
+                    <include name="logoClick"/>
+                    <include name="clickManyItems"/>
+                    <include name="fullPagetTxT"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/RegisterUserTest.java">
+        <classes>
+            <class name="com.PageTests.RegisterUserTest">
+                <methods>
+                    <include name="titleCheck"/>
+                    <include name="registerUserInput"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/SearchSelectTest.java">
+        <classes>
+            <class name="com.PageTests.SearchSelectTest">
+                <methods>
+                    <include name="getWholePageInfo"/>
+                    <include name="iPhoneDescription"/>
+                    <include name="consoleDescription"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/SelleCenterTest.java">
+        <classes>
+            <class name="com.PageTests.SelleCenterTest">
+                <methods>
+                    <include name="pageTest"/>
+                    <include name="hoverOverTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/SportingGoodsTest.java">
+        <classes>
+            <class name="com.PageTests.SportingGoodsTest">
+                <methods>
+                    <include name="callinAllHiddenItems"/>
+                    <include name="logoTest"/>
+                    <include name="checkBottomText"/>
+                    <include name="sportingGoodsClicks"/>
+                    <include name="getFullpageInfo"/>
+                    <include name="clickingItems"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Ebay_Framework_FInal/src/test/java/com/PageTests/StartSellingTest.java">
+        <classes>
+            <class name="com.PageTests.StartSellingTest">
+                <methods>
+                    <include name="pageTitle"/>
+                    <include name="listAnItem"/>
+                    <include name="searchSuggestion"/>
+                    <include name="faQText"/>
+                    <include name="sellerPolicyInfo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

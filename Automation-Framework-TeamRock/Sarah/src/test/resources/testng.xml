@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+<listeners>
+<listener class-name="com.Extentreporting.ExtentReporting"/>
+<listener class-name="com.Analyzers.Transformations"/>
+</listeners>
+
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/bassv/intellij-workspace/Automation-Framework-TeamRock/Sarah/src/test/java/com/PageTests/DiversityTest.java">
+        <classes>
+            <class name="com.PageTests.DiversityTest">
+                <methods>
+                    <include name="numbersText"/>
+                    <include name="byThenumber"/>
+                    <include name="pageInfoVerification"/>
+                    <include name="featureCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

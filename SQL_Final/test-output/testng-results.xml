@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="833" started-at="2022-05-04T12:44:09 EDT" finished-at="2022-05-04T12:44:10 EDT">
+    <groups>
+    </groups>
+    <test name="C:/Users/bassv/intellij-workspace/SQL_Final" duration-ms="833" started-at="2022-05-04T12:44:09 EDT" finished-at="2022-05-04T12:44:10 EDT">
+      <class name="com.SQLConnect.SQLConnect">
+        <test-method status="PASS" signature="getCountriesData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getCountriesData" duration-ms="658" started-at="2022-05-04T12:44:09 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountriesData -->
+        <test-method status="PASS" signature="getDepartmentsData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getDepartmentsData" duration-ms="42" started-at="2022-05-04T12:44:10 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDepartmentsData -->
+        <test-method status="PASS" signature="getDependantsData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getDependantsData" duration-ms="22" started-at="2022-05-04T12:44:10 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDependantsData -->
+        <test-method status="PASS" signature="getEmployeesData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getEmployeesData" duration-ms="28" started-at="2022-05-04T12:44:10 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeesData -->
+        <test-method status="PASS" signature="getJobsData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getJobsData" duration-ms="18" started-at="2022-05-04T12:44:10 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getJobsData -->
+        <test-method status="PASS" signature="getLocationData()[pri:0, instance:com.SQLConnect.SQLConnect@42e26948]" name="getLocationData" duration-ms="21" started-at="2022-05-04T12:44:10 EDT" finished-at="2022-05-04T12:44:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLocationData -->
+      </class> <!-- com.SQLConnect.SQLConnect -->
+    </test> <!-- C:/Users/bassv/intellij-workspace/SQL_Final -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

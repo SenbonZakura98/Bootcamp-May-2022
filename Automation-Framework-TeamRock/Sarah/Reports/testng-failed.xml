@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Extentreporting.ExtentReporting"/>
+    <listener class-name="com.Analyzers.Transformations"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/bassv/intellij-workspace/Automation-Framework-TeamRock/Sarah/src/test/java/com/PageTests/DiversityTest.java(failed)">
+    <classes>
+      <class name="com.PageTests.DiversityTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="featureCheck"/>
+        </methods>
+      </class> <!-- com.PageTests.DiversityTest -->
+    </classes>
+  </test> <!-- C:/Users/bassv/intellij-workspace/Automation-Framework-TeamRock/Sarah/src/test/java/com/PageTests/DiversityTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
